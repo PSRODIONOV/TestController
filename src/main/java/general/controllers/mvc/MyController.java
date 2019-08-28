@@ -1,4 +1,4 @@
-package general;
+package general.controllers.mvc;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
     public MyController(){
-        System.out.println("==================");
-        System.out.println("==================");
-        System.out.println("==================");
+        System.out.println("MyController created.");
     }
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
